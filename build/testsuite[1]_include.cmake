@@ -1,0 +1,5 @@
+if(EXISTS "/home/akash/Desktop/SE_Lab_Final/build/testsuite[1]_tests.cmake")
+  include("/home/akash/Desktop/SE_Lab_Final/build/testsuite[1]_tests.cmake")
+else()
+  add_test(testsuite_NOT_BUILT testsuite_NOT_BUILT)
+endif()
